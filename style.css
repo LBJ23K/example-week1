@@ -1,0 +1,54 @@
+
+body{
+	background-color: #60ADFF;
+	position: relative;
+	family-name："微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體", "DFKai-sb", serif;
+}
+
+#main .container{
+	position: relative;
+
+	width: 80%;
+	/*background-color: #0099FF;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+#main ul{
+	list-style: none;
+
+	margin-left: -40px;
+
+}
+
+#main ul li{
+	border: 1px solid #ddd;
+
+	padding: 10px;
+	overflow: hidden;
+	
+	text-align: center;
+	
+}
+#main ul li .yo{
+	position: relative;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main ul li img{
+	display: block;
+}
+#main ul li p{
+	display: block;
+	bottom: -30px;
+	background-color: rgba(0,0,0,0.4);
+	color:white;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+
+}
+
